@@ -11,3 +11,10 @@
     let result = waldoRegex.test(waldoIsHiding);
     console.log(result)
 }
+
+{
+    let petString = "James has a pet cat.";
+    let petRegex = /John|dog|bird|Liz|cat|Alice|fish/;
+    let result = petRegex.test(petString);
+    console.log(result);
+}
