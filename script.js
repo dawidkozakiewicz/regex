@@ -74,3 +74,10 @@
   let result = quoteSample.match(myRegex);
   console.log(result);
 }
+
+{
+  let difficultSpelling = "Mississippi ss piss ssiss SS";
+  let myRegex = /ss+/gi;
+  let result = difficultSpelling.match(myRegex);
+  console.log(result);
+}
