@@ -81,3 +81,10 @@
   let result = difficultSpelling.match(myRegex);
   console.log(result);
 }
+
+{
+  let chewieQuote = "Aaaaaaaaaaaaaaaarrrgh!";
+  let chewieRegex = /Aa*/;
+  let result = chewieQuote.match(chewieRegex);
+  console.log(result);
+}
