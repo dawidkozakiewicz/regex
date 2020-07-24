@@ -83,8 +83,15 @@
 }
 
 {
-  let chewieQuote = "Aaaaaaaaaaaaaaaarrrgh!";
-  let chewieRegex = /Aa*/;
+  let chewieQuote = "ZmorlbmltrkjmelrtkhjZmor";
+  let chewieRegex = /Zmoro*/;
   let result = chewieQuote.match(chewieRegex);
+  console.log(result);
+}
+
+{
+  let text = "<h1>Winter is coming</h1>";
+  let myRegex = /<.*?>/;
+  let result = text.match(myRegex);
   console.log(result);
 }
