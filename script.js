@@ -76,7 +76,7 @@
 }
 
 {
-  let difficultSpelling = "Mississippi ss piss ssiss SS";
+  let difficultSpelling = "Mississippi sss ss piss ssiss SS";
   let myRegex = /ss+/gi;
   let result = difficultSpelling.match(myRegex);
   console.log(result);
@@ -94,4 +94,18 @@
   let myRegex = /<.*?>/;
   let result = text.match(myRegex);
   console.log(result);
+}
+
+{
+  let text = "Abc abhyut aqqqqqt aqtyuiopbnmt mnop rst";
+  let myRegex = /A.*?t/i;
+  let result = text.match(myRegex);
+  console.log(result);
+}
+
+{
+  let crowd = "P1P2P3P4P5P6CCCP7P8P9";
+  let reCriminals = /C+/;
+  let matchedCriminals = crowd.match(reCriminals);
+  console.log(matchedCriminals);
 }
