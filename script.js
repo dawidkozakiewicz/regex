@@ -129,3 +129,9 @@
   let result = quoteSample.match(alphabetRegexV2).length;
   console.log(result);
 }
+{
+  let quoteSample = "The five boxing wizards jump quickly.";
+  let nonAlphabetRegex = /\W/g;
+  let result = quoteSample.match(nonAlphabetRegex).length;
+  console.log(result);
+}
