@@ -156,3 +156,10 @@
   let userCheck = /^[a-z]([0-9][0-9]+|[a-z]+\d*)$/i;
   let result = userCheck.test(username);
 }
+
+{
+  let sample = "Whitespace is important in separating words";
+  let countWhiteSpace = /\s/g;
+  let result = sample.match(countWhiteSpace);
+  console.log(result);
+}
