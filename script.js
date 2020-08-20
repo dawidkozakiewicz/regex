@@ -170,3 +170,10 @@
   let result = sample.match(countNonWhiteSpace);
   console.log(result);
 }
+
+{
+  let ohStr = "Ohhh no";
+  let ohRegex = /Oh{3,6}\sno/;
+  let result = ohRegex.test(ohStr);
+  console.log(result);
+}
