@@ -184,3 +184,10 @@
   let result = haRegex.test(haStr);
   console.log(result);
 }
+
+{
+  let timStr = "Timmmmber";
+  let timRegex = /Tim{4}ber/;
+  let result = timRegex.test(timStr);
+  console.log(result);
+}
