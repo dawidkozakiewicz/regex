@@ -191,3 +191,10 @@
   let result = timRegex.test(timStr);
   console.log(result);
 }
+
+{
+  let favWord = "favorite";
+  let favRegex = /favou?rite/;
+  let result = favRegex.test(favWord);
+  console.log(result);
+}
