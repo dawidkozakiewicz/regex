@@ -1,5 +1,5 @@
 {
-  let myString = "Hello, World!";
+  let myString = "Hello, World!"; //Using the Test Method
   let myRegex = /Hello/;
   let result = /Hello/.test(myString);
   console.log(result);
