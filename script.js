@@ -1,13 +1,13 @@
 {
-  let myString = "Hello, World!"; //Using the Test Method
+  let myString = "Hello, World!"; // Using the Test Method
   let myRegex = /Hello/;
   let result = /Hello/.test(myString);
   console.log(result);
 }
 
 {
-  let waldoIsHiding = "Somewhere Waldo is hiding in this text.";
-  let waldoRegex = /wALDO/;
+  let waldoIsHiding = "Somewhere Waldo is hiding in this text."; // Match Literal Strings
+  let waldoRegex = /Waldo/;
   let result = waldoRegex.test(waldoIsHiding);
   console.log(result);
 }
