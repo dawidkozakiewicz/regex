@@ -20,7 +20,7 @@
 }
 
 {
-  let myString = "freeCodeCamp";
+  let myString = "freeCodeCamp"; // Ignore Case While MatchingPassed
   let fccRegex = /freecodecamp/i;
   let result = fccRegex.test(myString);
   console.log(result);
