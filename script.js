@@ -27,7 +27,7 @@
 }
 
 {
-  let extractStr = "Extract the word 'coding' from this string.";
+  let extractStr = "Extract the word 'coding' from this string."; // Extract Matches
   let codingRegex = /coding/;
   let result = extractStr.match(codingRegex);
   console.log(result);
