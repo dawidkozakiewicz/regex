@@ -34,7 +34,7 @@
 }
 
 {
-  let twinkleStar = "Twinkle, twinkle, little star";
+  let twinkleStar = "Twinkle, twinkle, little star"; // Find More Than the First Match
   let starRegex = /Twinkle/gi;
   let result = twinkleStar.match(starRegex);
   console.log(result);
