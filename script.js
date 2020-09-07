@@ -41,7 +41,7 @@
 }
 
 {
-  let exampleStr = "Let's have fun with regular expressions!";
+  let exampleStr = "Let's have fun with regular expressions!"; // Match Anything With Wildcard Period
   let unRegex = /un./;
   let result = unRegex.test(exampleStr);
   console.log(result);
