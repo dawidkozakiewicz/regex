@@ -62,7 +62,7 @@
   console.log(result);
 }
 {
-  let quoteSample = "Blueberry 3.141592653s are delicious.";
+  let quoteSample = "Blueberry 3.141592653s are delicious."; // Match Numbers and Letters of the Alphabet. Really nothing?
   let myRegex = /[h-s2-6]/gi;
   let result = quoteSample.match(myRegex);
   console.log(result);
