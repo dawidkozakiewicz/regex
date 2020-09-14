@@ -69,7 +69,7 @@
 }
 
 {
-  let quoteSample = "3 blind mice.";
+  let quoteSample = "3 blind mice."; // Match Single Characters Not Specified
   let myRegex = /[^0-9aeiou]/gi;
   let result = quoteSample.match(myRegex);
   console.log(result);
