@@ -76,7 +76,7 @@
 }
 
 {
-  let difficultSpelling = "Mississippi sss ss piss ssiss SS";
+  let difficultSpelling = "Mississippi sss ss piss ssiss SS"; // Match Characters that Occur One or More Times
   let myRegex = /ss+/gi;
   let result = difficultSpelling.match(myRegex);
   console.log(result);
