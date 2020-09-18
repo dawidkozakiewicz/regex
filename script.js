@@ -83,7 +83,7 @@
 }
 
 {
-  let chewieQuote = "ZmorlbmltrkjmelrtkhjZmor";
+  let chewieQuote = "ZmorlbmltrkjmelrtkhjZmor"; // Match Characters that Occur Zero or More Times
   let chewieRegex = /Zmoro*/;
   let result = chewieQuote.match(chewieRegex);
   console.log(result);
