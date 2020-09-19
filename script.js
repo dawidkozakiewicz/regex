@@ -90,7 +90,7 @@
 }
 
 {
-  let text = "<h1>Winter is coming</h1>";
+  let text = "<h1>Winter is coming</h1>"; // Find Characters with Lazy Matching
   let myRegex = /<.*?>/;
   let result = text.match(myRegex);
   console.log(result);
