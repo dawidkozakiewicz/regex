@@ -97,14 +97,14 @@
 }
 
 {
-  let text = "Abc abhyut aqqqqqt aqtyuiopbnmt mnop rst";
+  let text = "Abc abhyut aqqqqqt aqtyuiopbnmt mnop rst"; // my exc.
   let myRegex = /A.*?t/i;
   let result = text.match(myRegex);
   console.log(result);
 }
 
 {
-  let crowd = "P1P2P3P4P5P6CCCP7P8P9";
+  let crowd = "P1P2P3P4P5P6CCCP7P8P9"; // Find One or More Criminals in a Hunt
   let reCriminals = /C+/;
   let matchedCriminals = crowd.match(reCriminals);
   console.log(matchedCriminals);
