@@ -111,7 +111,7 @@
 }
 
 {
-  let rickyAndCal = "Cal and Ricky both like racing.";
+  let rickyAndCal = "Cal and Ricky both like racing."; // Match Beginning String Patterns
   let calRegex = /^Cal/;
   let result = calRegex.test(rickyAndCal);
   console.log(result);
