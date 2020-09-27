@@ -138,7 +138,7 @@
 }
 
 {
-  let movieName = "2001: A Space Odyssey";
+  let movieName = "2001: A Space Odyssey"; // Regular Expressions: Match All Numbers
   let numRegex = /\d/g;
   let result = movieName.match(numRegex).length;
   console.log(result);
