@@ -145,7 +145,7 @@
 }
 
 {
-  let movieName = "2001: A Space Odyssey";
+  let movieName = "2001: A Space Odyssey"; // Match All Non-Numbers
   let noNumRegex = /\D/g;
   let result = movieName.match(noNumRegex).length;
   console.log(result);
