@@ -152,7 +152,7 @@
 }
 
 {
-  let username = "JackOfAllTrades";
+  let username = "JackOfAllTrades"; // Restrict Possible Usernames
   let userCheck = /^[a-z]([0-9][0-9]+|[a-z]+\d*)$/i;
   let result = userCheck.test(username);
 }
