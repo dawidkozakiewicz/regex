@@ -173,7 +173,7 @@
 }
 
 {
-  let ohStr = "Ohhh no";
+  let ohStr = "Ohhh no"; // Specify Upper and Lower Number of MatchesPassed
   let ohRegex = /Oh{3,6}\sno/;
   let result = ohRegex.test(ohStr);
   console.log(result);
