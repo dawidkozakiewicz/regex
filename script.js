@@ -173,14 +173,14 @@
 }
 
 {
-  let ohStr = "Ohhh no"; // Specify Upper and Lower Number of MatchesPassed
+  let ohStr = "Ohhh no"; // Specify Upper and Lower Number of Matches
   let ohRegex = /Oh{3,6}\sno/;
   let result = ohRegex.test(ohStr);
   console.log(result);
 }
 
 {
-  let haStr = "Hazzzzah";
+  let haStr = "Hazzzzah"; // Specify Only the Lower Number of Matches
   let haRegex = /Haz{4,}ah/;
   let result = haRegex.test(haStr);
   console.log(result);
