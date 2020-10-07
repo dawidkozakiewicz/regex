@@ -194,7 +194,7 @@
 }
 
 {
-  let favWord = "favorite";
+  let favWord = "favorite"; // Check for All or None
   let favRegex = /favou?rite/;
   let result = favRegex.test(favWord);
   console.log(result);
