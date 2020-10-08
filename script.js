@@ -199,3 +199,12 @@
   let result = favRegex.test(favWord);
   console.log(result);
 }
+
+{
+  let quit = "qu"; // Positive and Negative Lookahead
+  let noquit = "qt";
+  let quRegex = /q(?=u)/;
+  let qRegex = /q(?!u)/;
+  quit.match(quRegex); // Returns ["q"]
+  noquit.match(qRegex); // Returns ["q"]
+}
